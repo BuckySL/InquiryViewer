@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Container styles */
+.container {
+    max-width: 100%; /* Set maximum width to 100% */
+    margin: 40px auto; /* Center container horizontally */
+    padding: 20px; /* Add padding inside container */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ddd; /* Border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Products section styles */
+.products {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap items if they exceed container width */
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Individual product box styles */
+.box {
+    width: 250px; /* Set width of box */
+    margin: 20px; /* Add margin around box */
+    padding: 20px; /* Add padding inside box */
+    background-color: #fff; /* Background color */
+    border: 1px solid #ddd; /* Border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for product box */
+.box:hover {
+    transform: scale(1.05); /* Increase card size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+
+/* Heading styles */
+.box h2 {
+    font-size: 18px; /* Font size */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Paragraph styles */
+.box p {
+    font-size: 14px; /* Font size */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Form inside product box styles */
+.box form {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space evenly between form elements */
+}
+
+/* Button styles */
+.box .btn {
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Border radius */
+    background-color: #4CAF50; /* Background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Cursor style */
+}
+
+/* Hover effect for button */
+.box .btn:hover {
+    background-color: #3e8e41; /* Change background color on hover */
+}
